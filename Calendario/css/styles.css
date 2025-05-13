@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: grey;
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mes {
+    width: 424px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    background-color: aqua;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+table {
+    width: 100%;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+th {
+    padding: 5px;
+}
+th, td {
+    text-align: center;
+}
+
+#container {
+    max-width: 1280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
